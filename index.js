@@ -2,7 +2,7 @@ class Agable{
     constructor(year){
         this.currentYear = currentYear;
         this.objectsYear = objectsYear;  
-        calculateAge= 
+        calculateAge= currentYear-objectsYear
     }
 }
 class Company{
@@ -35,5 +35,6 @@ class Car{
 //should inherit from Agable in Company class and pass yearEstablished to Agable in the constructor
 //should inherit from Agable in Person class and pass birthYear to Agable in the constructor
 //should inherit from Agable in Car class and pass year to Agable in the constructor
+
 
 
